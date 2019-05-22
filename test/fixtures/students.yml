@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  st_id: 1
+  st_name: MyString
+  roll_no: 1
+  class: MyString
+  adm_date: 2019-05-17
+
+two:
+  st_id: 1
+  st_name: MyString
+  roll_no: 1
+  class: MyString
+  adm_date: 2019-05-17

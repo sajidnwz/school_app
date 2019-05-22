@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  te_id: 1
+  amount: 1
+  sal_date: 2019-05-17
+
+two:
+  te_id: 1
+  amount: 1
+  sal_date: 2019-05-17
