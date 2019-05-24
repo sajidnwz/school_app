@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
   	if @student.save
   		render json: {success: true, message: "Student Details", data: @student.as_json}
   	else
-  		render json: {success: false, message: "Erros", errors: @student.errors.full_messages}
+  		render json: {success: false, message: "Errors", errors: @student.errors.full_messages}
   	end
   end
 
@@ -20,7 +20,7 @@ class StudentsController < ApplicationController
  		if @student.update_attributes(student_params)
   		render json: {success: true, message: "Student Updated successfully", data: @student.as_json}
   	else
-  		render json: {success: false, message: "Erros", errors: @student.errors.full_messages}
+  		render json: {success: false, message: "Errors", errors: @student.errors.full_messages}
   	end	 	
   end
 

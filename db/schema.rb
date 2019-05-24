@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_18_154243) do
+ActiveRecord::Schema.define(version: 2019_05_24_170115) do
 
   create_table "klasses", force: :cascade do |t|
     t.string "name"
@@ -51,6 +51,7 @@ ActiveRecord::Schema.define(version: 2019_05_18_154243) do
     t.date "join_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "sallary"
   end
 
 end
